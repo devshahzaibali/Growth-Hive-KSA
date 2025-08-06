@@ -24,8 +24,12 @@ const Header = () => {
             whileTap={{ scale: 0.98 }}
           >
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl bg-green-600 flex items-center justify-center">
-                <span className="text-white text-xl lg:text-2xl font-bold">G</span>
+              <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl flex items-center justify-center overflow-hidden">
+                <img 
+                  src="/logo.png" 
+                  alt="Growth Hive KSA Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div className="hidden sm:block">
                 <div className="text-lg lg:text-xl font-display font-bold text-gray-900">

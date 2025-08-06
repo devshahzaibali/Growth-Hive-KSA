@@ -46,8 +46,12 @@ const Footer = () => {
             className="lg:col-span-1"
           >
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center">
-                <span className="text-white text-xl font-bold">G</span>
+              <div className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden">
+                <img 
+                  src="/logo.png" 
+                  alt="Growth Hive KSA Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h3 className="text-xl font-display font-bold">Growth Hive KSA</h3>
