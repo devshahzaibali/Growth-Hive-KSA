@@ -14,7 +14,7 @@
     "audit:fix": "npm audit fix",
     "security-check": "npm audit && npm run lint",
     "type-check": "tsc --noEmit",
-    "clean": "rm -rf dist node_modules/.vite",
+    "clean": "if exist dist rmdir /s /q dist && if exist node_modules\\.vite rmdir /s /q node_modules\\.vite",
     "prebuild": "npm run clean"
   },
   "dependencies": {
