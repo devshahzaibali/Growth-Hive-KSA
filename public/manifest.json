@@ -1,0 +1,73 @@
+{
+  "name": "Growth Hive KSA - Social Media Marketing Agency",
+  "short_name": "Growth Hive KSA",
+  "description": "Professional social media marketing agency helping businesses in Saudi Arabia achieve digital success",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#22c55e",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "marketing", "social media"],
+  "icons": [
+    {
+      "src": "/src/assets/favicon_io (1)/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/src/assets/favicon_io (1)/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/src/assets/favicon_io (1)/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "View our social media marketing services",
+      "url": "/#services",
+      "icons": [
+        {
+          "src": "/src/assets/favicon_io (1)/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch with us",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "/src/assets/favicon_io (1)/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+} 
