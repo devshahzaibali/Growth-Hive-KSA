@@ -45,6 +45,12 @@ const Footer = () => {
       name: 'Snapchat', 
       href: 'https://www.snapchat.com/add/growthhive?share_id=hCYN_FJxTDQ&locale=en-PK',
       color: 'hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-500'
+    },
+    { 
+      icon: 'tiktok', 
+      name: 'TikTok', 
+      href: '#',
+      color: 'hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500'
     }
   ]
 
